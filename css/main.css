@@ -34,7 +34,7 @@ body {
 @media only screen and (max-width: 600px) {
   #lyrics {
     font-size: 12px; /* Reduce el tamaño de la letra */
-    margin-bottom: 80px; /* Ajusta el margen inferior para evitar superposición */
+    margin-bottom: 150px; /* Ajusta el margen inferior para evitar superposición */
     letter-spacing: 2px; /* Reduce el espaciado entre letras */
     line-height: 1.4; /* Aumenta el espacio entre líneas */
   }
