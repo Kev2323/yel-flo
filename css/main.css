@@ -25,7 +25,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
@@ -34,7 +34,7 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
+      margin-bottom: 330px;
       letter-spacing: 3px;
   }
 
