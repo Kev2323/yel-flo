@@ -25,7 +25,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 1%;
+  top: 80%; /* Ajusta este valor para bajar las letras en pantallas grandes */
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
@@ -34,7 +34,7 @@ body {
 @media only screen and (max-width: 600px) {
   #lyrics {
     font-size: 12px; /* Reduce el tamaño de la letra */
-    margin-bottom: 150px; /* Ajusta el margen inferior para evitar superposición */
+    top: 70%; /* Ajusta este valor para bajar las letras en pantallas pequeñas */
     letter-spacing: 2px; /* Reduce el espaciado entre letras */
     line-height: 1.4; /* Aumenta el espacio entre líneas */
   }
