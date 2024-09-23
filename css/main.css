@@ -30,15 +30,27 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
 }
+/* Ajustes para móviles (pantallas pequeñas) */
 @media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 330px;
-      letter-spacing: 3px;
+    font-size: 12px; /* Reduce el tamaño de la letra */
+    margin-bottom: 80px; /* Ajusta el margen inferior para evitar superposición */
+    letter-spacing: 2px; /* Reduce el espaciado entre letras */
+    line-height: 1.4; /* Aumenta el espacio entre líneas */
   }
 
+  .titulo {
+    font-size: 18px; /* Reduce el tamaño del título */
+    margin-bottom: 380px; /* Asegura que el título esté más separado del contenido */
+    letter-spacing: 8px; /* Reduce el espaciado del título */
+  }
+
+  .flowers {
+    margin-bottom: 40%; /* Aumenta el espacio en la parte inferior para las flores */
+    transform: scale(0.8); /* Ajusta el tamaño de las flores */
+  }
 }
+
 .titulo {
   margin-bottom: 520px;
   font-family: "Arial Narrow", Arial, sans-serif;
