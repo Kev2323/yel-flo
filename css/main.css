@@ -54,7 +54,7 @@ body {
 .titulo {
   margin-bottom: 520px;
   font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  color: rgb(106, 255, 0);
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
